@@ -4,8 +4,20 @@ body{
     box-sizing: border-box;
     font-family: 'Josefin Sans' , sans-serif;
 }
+
+
 section{
     height: 100vh;
+}
+
+
+
+/* top banner start */
+
+.top-banner{
+    background-image: url("images/header-bg.png");
+   background-repeat: no-repeat;
+   
 }
 
 .half-width h2{
@@ -54,8 +66,35 @@ section{
     width:70%;
 }
 
-.top-banner{
-    background-image: url("images/header-bg.png");
-   background-repeat: no-repeat;
+
+/* mid banner start */
+
+.mid-banner .half-width img{
+    width:70%;
+}
+
+.mid-banner .half-width{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 2%;
+    margin-top: 200px;    
+}
+
+.mid-banner .half-width h1{
+    font-weight: 700;
+    font-size: 70px;
+    
+}
+.mid-banner .half-width p{
+   font-weight: 300;
+   font-size: 20px;
    
 }
+
+.mid-banner{
+    background-image: url("images/biography-bg.png");
+   background-repeat: no-repeat;
+
+
+/* work section start */
