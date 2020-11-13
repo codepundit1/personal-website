@@ -69,6 +69,11 @@ section{
 
 /* mid banner start */
 
+.mid-banner{
+    background-image: url("images/biography-bg.png");
+   
+}
+
 .mid-banner .half-width img{
     width:70%;
 }
@@ -92,9 +97,75 @@ section{
    
 }
 
-.mid-banner{
-    background-image: url("images/biography-bg.png");
-   background-repeat: no-repeat;
 
 
 /* work section start */
+
+.work-section{
+    background-image: url("images/latest-work-bg.png");
+   background-repeat: no-repeat;
+}
+
+.work-section h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+   padding-top: 50px;
+}
+
+.work-section .image img{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+/* last section start */
+
+.client-section{
+    background-image: url("images/footer-bg.png");
+   background-repeat: no-repeat;
+}
+
+.client-section h3, h1, h2, p{
+    text-align: center;
+}
+.client-section h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+   padding-top: 50px;
+}
+
+.text-area h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-area h3{
+    font-size: 15px;
+    font-weight: 100;
+}
+.text-area p{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+.client-section .footer-section{
+    background-color: rgb(252, 79, 108);
+    padding: 40px;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 10%;
+    color: white;
+    border-radius: 7px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
